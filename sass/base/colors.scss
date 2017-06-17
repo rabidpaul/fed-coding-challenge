@@ -1,0 +1,51 @@
+$color-white: #ffffff;
+// Blue
+$color-regal: #1c264a;
+$color-cerulean: #006899;
+$color-sapphire: #328fc2;
+$color-fountain: #6bb8b7;
+$color-seagull: #76b7d8;
+$color-sky: #75acd0;
+// Purple
+$color-tyrian: #650360;
+// Green
+$color-mint: #bbd8c4;
+$color-glacier: #eef5f0;
+$color-pistachio: #ddebe1;
+$color-edgewater: #bbd8c4;
+// Grey
+$color-grey: #7c7c7c;
+$color-lightgrey: #cccccc;
+$color-suva: #888888;
+$color-smoke: #f5f5f5;
+$color-zircon: #e7e8e9;
+$color-matterhorn: #505050;
+
+// Background colors
+.background-color {
+    &--regal {
+        background-color: $color-sapphire;
+    }
+}
+
+// Text colors
+.text-color {
+    &--white {
+        color: $color-white;
+    }
+    &--tyrian {
+        color: $color-tyrian;
+    }
+    &--cerulean {
+        color: $color-sapphire;
+    }
+    &--grey {
+        color: $color-grey;
+    }
+    &--zircon {
+        color: $color-zircon;
+    }
+    &--suva {
+        color: $color-suva;
+    }
+}

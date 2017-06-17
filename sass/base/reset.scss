@@ -1,0 +1,24 @@
+html,
+body {
+    margin: 0;
+    -webkit-tap-highlight-color: $color-sky;
+    background-color: $color-white;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+button {
+    border: none;
+}
+
+:focus {
+    outline: $color-sky;
+}

@@ -1,0 +1,45 @@
+.header {
+    max-height: 50px;
+}
+
+.header-logo__img {
+    display: block;
+    height: 100%;
+}
+
+.header-logo__link {
+    height: 50px;
+}
+
+.header-logo,
+.header-logo__img,
+.header-nav__item,
+.header-nav__link {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-nav {
+    margin: 0 0 0 auto;
+    padding: 0;
+    height: 50px;
+    margin-right: -20px;
+}
+
+.header-nav__item {
+    padding-left: 0;
+    height: 100%;
+    display: inline-table;
+}
+
+.header-nav__link {
+    display: table-cell;
+    padding: 0 20px;
+    color: $color-white;
+    text-decoration: none;
+    &.is-active,
+    &:hover {
+        background-color: $color-cerulean;
+        font-weight: 400;
+    }
+}

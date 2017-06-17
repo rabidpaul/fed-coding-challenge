@@ -1,0 +1,16 @@
+.callout {
+    position: relative;
+    background-color: $color-mint
+}
+
+.callout__text {
+    width: 85%;
+    padding: 15px;
+}
+
+.callout__phone {
+    position: absolute;
+    max-width: 105px;
+    bottom: 15px;
+    right: 30px;
+}

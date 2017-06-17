@@ -1,0 +1,29 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1045px;
+    overflow: auto;
+}
+
+.container--main {
+    padding: 64px 0 80px;
+}
+
+.main-content,
+.sidebar--right {
+    position: relative;
+    min-height: 1px;
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.main-content {
+    max-width: 70%;
+    margin-left: -10px;
+}
+
+.sidebar--right {
+    max-width: 30%;
+    margin-right: -10px;
+}
